@@ -96,7 +96,7 @@ body {
 .cliente_selecao-produtos {
     display: grid;
     grid-template-columns: repeat(3, 30%);
-    grid-template-rows: repeat(2, 60%);
+    grid-template-rows: repeat(2, 80%);
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -112,48 +112,108 @@ body {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
     justify-content: flex-start;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .produto1 {
     background: url("Tênis Esportivo.png");
     background-size: cover;
-    height: 50%;
+    height: 55%;
     width: 100%;
-    border-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .produto2 {
     background: url("Relógio.png");
     background-size: cover;
-    height: 50%;
+    height: 55%;
     width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .produto3 {
     background: url("Bolsa.png");
     background-size: cover;
-    height: 50%;
+    height: 55%;
     width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .produto4 {
     background: url("Óculos de Sol.png");
     background-size: cover;
-    height: 50%;
+    height: 55%;
     width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .produto5 {
     background: url("Câmera.png");
     background-size: cover;
-    height: 50%;
+    height: 55%;
     width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .produto6 {
     background: url("Fone de Ouvido.png");
     background-size: cover;
-    height: 50%;
+    height: 55%;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.cliente_texto-nome_produto {
+    font-size: 200%;
+    font-weight: bold;
+    margin-left: 7%;
+    margin-top: 5%;
+}
+
+.cliente_texto-subtitulo_produto {
+    color: gray;
+    font-size: 150%;
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-top: 5%;
+}
+
+.cliente_preco-produto {
+    color: orange;
+    font-size: 200%;
+    font-weight: bold;
+    margin-left: 7%;
+    margin-top: 5%;
+}
+.cliente_produto-botao {
+    color: white;
+    background-color: black;
+    display: flex;
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-top: 5%;
+    width: 86%;
+    height: 8%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-size: 100%;
+}
+
+.cliente_rodape_contato {
+    display: flex;
+    background-color: black;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35%;
+    height: 8%;
     width: 100%;
 }
